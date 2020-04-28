@@ -1,0 +1,17 @@
+{
+  "name": "esds-hang",
+  "version": "1.0.0",
+  "description": "investigate hanging es-dev-server",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:mocks": "es-dev-server --config es-dev-server-mocks.config.js"
+  },
+  "dependencies": {
+    "lit-element": "^2.2.1"
+  },
+  "devDependencies": {
+    "es-dev-server": "^1.46.1",
+    "koa-bodyparser": "^4.2.1"
+  }
+}

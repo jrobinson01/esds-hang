@@ -757,10 +757,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@open-wc/building-utils@^2.16.3":
-  version "2.16.3"
-  resolved "https://artifactory.banno-tools.com/artifactory/api/npm/npm/@open-wc/building-utils/-/building-utils-2.16.3.tgz#f512d68198c31458849c79111fa9d3f24f03049d"
-  integrity sha1-9RLWgZjDFFiEnHkRH6nT8k8DBJ0=
+"@open-wc/building-utils@^2.16.4":
+  version "2.16.4"
+  resolved "https://artifactory.banno-tools.com/artifactory/api/npm/npm/@open-wc/building-utils/-/building-utils-2.16.4.tgz#10d64e0d2b92c017caf47a57991f8b1eef91c634"
+  integrity sha1-ENZODSuSwBfK9HpXmR+LHu+RxjQ=
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/plugin-syntax-dynamic-import" "^7.8.3"
@@ -1248,10 +1248,10 @@ error-inject@^1.0.0:
   resolved "https://artifactory.banno-tools.com/artifactory/api/npm/npm/error-inject/-/error-inject-1.0.0.tgz#e2b3d91b54aed672f309d950d154850fa11d4f37"
   integrity sha1-4rPZG1Su1nLzCdlQ0VSFD6EdTzc=
 
-es-dev-server@^1.46.1:
-  version "1.46.2"
-  resolved "https://artifactory.banno-tools.com/artifactory/api/npm/npm/es-dev-server/-/es-dev-server-1.46.2.tgz#f2a17cc7a5dab1e8a7fa212b586cb51f3abea32f"
-  integrity sha1-8qF8x6Xasein+iErWGy1Hzq+oy8=
+es-dev-server@^1.47.0:
+  version "1.47.0"
+  resolved "https://artifactory.banno-tools.com/artifactory/api/npm/npm/es-dev-server/-/es-dev-server-1.47.0.tgz#d7d257b9a8f1177aa651465b00c47f18bfac6ee7"
+  integrity sha1-19JXuajxF3qmUUZbAMR/GL+sbuc=
   dependencies:
     "@babel/core" "^7.9.0"
     "@babel/plugin-proposal-dynamic-import" "^7.8.3"
@@ -1264,7 +1264,7 @@ es-dev-server@^1.46.1:
     "@babel/plugin-syntax-optional-chaining" "^7.8.3"
     "@babel/plugin-transform-template-literals" "^7.8.3"
     "@babel/preset-env" "^7.9.0"
-    "@open-wc/building-utils" "^2.16.3"
+    "@open-wc/building-utils" "^2.16.4"
     "@rollup/plugin-node-resolve" "^7.1.1"
     "@rollup/pluginutils" "^3.0.0"
     "@types/minimatch" "^3.0.3"
@@ -1292,7 +1292,7 @@ es-dev-server@^1.46.1:
     opn "^5.4.0"
     parse5 "^5.1.1"
     path-is-inside "^1.0.2"
-    polyfills-loader "^1.5.4"
+    polyfills-loader "^1.5.6"
     portfinder "^1.0.21"
     strip-ansi "^5.2.0"
     systemjs "^4.0.0"
@@ -1588,7 +1588,7 @@ keygrip@~1.1.0:
   dependencies:
     tsscmp "1.0.6"
 
-koa-bodyparser@^4.2.1:
+koa-bodyparser@^4.3.0:
   version "4.3.0"
   resolved "https://artifactory.banno-tools.com/artifactory/api/npm/npm/koa-bodyparser/-/koa-bodyparser-4.3.0.tgz#274c778555ff48fa221ee7f36a9fbdbace22759a"
   integrity sha1-J0x3hVX/SPoiHufzap+9us4idZo=
@@ -1975,13 +1975,13 @@ pkg-up@^2.0.0:
   dependencies:
     find-up "^2.1.0"
 
-polyfills-loader@^1.5.4:
-  version "1.5.4"
-  resolved "https://artifactory.banno-tools.com/artifactory/api/npm/npm/polyfills-loader/-/polyfills-loader-1.5.4.tgz#2ec7327cff00c0c596e99d774d00099ce1554b34"
-  integrity sha1-LscyfP8AwMWW6Z13TQAJnOFVSzQ=
+polyfills-loader@^1.5.6:
+  version "1.5.6"
+  resolved "https://artifactory.banno-tools.com/artifactory/api/npm/npm/polyfills-loader/-/polyfills-loader-1.5.6.tgz#5bfd107ebeaaab19da84dfeeb3811fc41a49b29e"
+  integrity sha1-W/0Qfr6qqxnahN/us4EfxBpJsp4=
   dependencies:
     "@babel/core" "^7.9.0"
-    "@open-wc/building-utils" "^2.16.3"
+    "@open-wc/building-utils" "^2.16.4"
     "@webcomponents/webcomponentsjs" "^2.4.0"
     abortcontroller-polyfill "^1.4.0"
     core-js-bundle "^3.6.0"

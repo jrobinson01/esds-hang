@@ -11,7 +11,7 @@
     "lit-element": "^2.2.1"
   },
   "devDependencies": {
-    "es-dev-server": "^1.46.1",
-    "koa-bodyparser": "^4.2.1"
+    "es-dev-server": "^1.47.0",
+    "koa-bodyparser": "^4.3.0"
   }
 }

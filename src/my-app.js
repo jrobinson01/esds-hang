@@ -46,7 +46,7 @@ export default class MyApp extends LitElement {
     }
     setTimeout(() => {
       this.loadBar();
-    }, 10000);
+    }, 9000);
   }
 
   async loadBar() {
@@ -69,7 +69,7 @@ export default class MyApp extends LitElement {
     }
     setTimeout(() => {
       this.loadFoo();
-    }, 10000);
+    }, 9000);
   }
 
   render() {

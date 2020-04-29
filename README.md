@@ -21,3 +21,5 @@ const response = await fetch(`/api?mock=foo`, {
 ```
 
 observe that sometimes the third or fourth (it's kind of random) request will just hang until the browser times out.
+
+This appears to be the root cause: https://github.com/nodejs/node/issues/31309
